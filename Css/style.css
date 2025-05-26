@@ -111,7 +111,14 @@ footer{
     text-align: center;
     color: white;
 }
-
+footer a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+ footer> a:hover{
+    background-color: var(--cor4);
+    font-size: large;
+    padding: 0em 02em 0em 02em;}
 aside{
     background-color: var(--cor1);
     border-radius: 15px;
